@@ -1,36 +1,54 @@
 # 🛍️ Myntra Clone
 
-A simple front-end clone of the popular fashion e-commerce website MYNTRA, built using HTML, CSS, and JAVASCRIPT. This project replicates the homepage and basic UI of the original Myntra site to practice web development skills.
-
+This is a frontend-only clone of the popular fashion e-commerce website Myntra, created using HTML, CSS, and JavaScript. 
 
 ## ✨ Features
 
-- 🧾 Navbar with logo, search bar, and menu items  
-- 🎯 Hero section with banners and offers  
-- 👗 Product cards with image, title, and price  
-- 🖱️ Hover effects for better UX  
-- 📱 Responsive layout (basic responsiveness)
+- ✅ Navigation bar with Myntra logo, search bar, and menu items
+- 🖼️ Product grid with multiple items (images from `/images`)
+- 🛒 Bag/cart functionality using `bag.js`
+- 🎨 Clean UI built with `style.css`
+- ⚡ Smooth JS-powered interactions (`index.js`)
+- 🔄 Responsive (basic responsiveness handled)
 
-## 🧰 Tech Stack
+---
 
-- HTML5 
-- CSS3
-- JavaScript 
-
-Getting Started
-
- Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/myntra-clone.git
-Open the index.html file in your browser
-
-Explore the clone and enjoy the frontend experience!
-
-📁 Folder Structure
+## 📁 Folder Structure
 
 myntra-clone/
 │
-├── index.html
-├── style.css
-├── script.js
-└── images/
+├── css/
+│ └── style.css
+│
+├── data/
+│ └── items.js
+│
+├── images/
+│ ├── 1.jpg to 8.jpg
+│ └── myntra_logo.webp
+│
+├── scripts/
+│ ├── index.js
+│ └── bag.js
+│
+├── index.html ← Main homepage
+└── bag.html ← Bag/cart page
+
+
+## 🚀 Getting Started
+
+To view the project locally:
+
+1. Clone or download this repo
+2. Open `index.html` in your browser
+3. Click around and explore the frontend functionality!
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3  
+-JavaScript 
+
+
+## 🙋‍♀️Author:
+Vanshika Sohal
